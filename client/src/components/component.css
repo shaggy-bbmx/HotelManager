@@ -1,0 +1,82 @@
+.filter-scroll-container {
+    overflow-y: auto;
+}
+
+
+
+.shadowing:hover {
+    box-shadow: inset 3px 0 0 #ffede6, inset -5px 0 0 #ffede6, 0 1px 2px 0 rgba(0, 0, 0, 0), 0 1px 3px 1px rgba(15, 15, 15, 0.15)
+}
+
+
+.filter-scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.filter-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.filter-scroll-container::-webkit-scrollbar-thumb {
+    background: rgb(156 163 175);
+
+}
+
+
+.notification-scroll-container {
+    overflow-y: auto;
+}
+
+
+
+.shadowing:hover {
+    box-shadow: inset 3px 0 0 #ffede6, inset -5px 0 0 #ffede6, 0 1px 2px 0 rgba(0, 0, 0, 0), 0 1px 3px 1px rgba(15, 15, 15, 0.15)
+}
+
+
+.notification-scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.notification-scroll-container::-webkit-scrollbar-track {
+    background: rgb(31 41 55);
+}
+
+/* Handle */
+.notification-scroll-container::-webkit-scrollbar-thumb {
+    background: rgb(107 114 128);
+
+}
+
+.inbox-scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.inbox-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.inbox-scroll-container::-webkit-scrollbar-thumb {
+    background: rgb(156 163 175);
+
+}
+
+.viewer-scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.viewer-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.viewer-scroll-container::-webkit-scrollbar-thumb {
+    background: rgb(156 163 175);
+
+}

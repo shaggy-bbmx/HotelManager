@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57e7ad66.css",
+    "main.js": "/static/js/main.9427cdac.js",
+    "static/media/modern-studio-apartment-design-with-bedroom-living-space.jpg": "/static/media/modern-studio-apartment-design-with-bedroom-living-space.869d8aefa93ad239dae6.jpg",
+    "static/media/pocho.jpg": "/static/media/pocho.b57e6111df69a87925da.jpg",
+    "static/media/logo.png": "/static/media/logo.4bbc63eb39e350ef96d6.png",
+    "static/media/sample_avatar.avif": "/static/media/sample_avatar.4728d1f679e35e73e56d.avif",
+    "static/media/accountBg.svg": "/static/media/accountBg.ed800c347df1a461b0db1ca9e32b759f.svg",
+    "index.html": "/index.html",
+    "main.57e7ad66.css.map": "/static/css/main.57e7ad66.css.map",
+    "main.9427cdac.js.map": "/static/js/main.9427cdac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e7ad66.css",
+    "static/js/main.9427cdac.js"
+  ]
+}
