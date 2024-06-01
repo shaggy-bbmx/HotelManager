@@ -37,8 +37,8 @@ function App() {
           <HomeRoute exact path="/" component={Home} />
           <Route exact path="/forgot/password" component={ForgotPassword} />
           <ProtectedRoute exact path="/user/account" component={UserAccount} />
-          <Route path="/register/form/:email/:token/:role" component={RegisterForm} />
-          <Route path="/reset/form/:email/:token" component={ResetPassword} />
+          <Route exact path="/register/form/:email/:token/:role" component={RegisterForm} />
+          <Route exact path="/reset/form/:email/:token" component={ResetPassword} />
         </Switch>
       </Router>
     </div>
