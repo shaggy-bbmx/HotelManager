@@ -96,7 +96,9 @@ const UserAccount = () => {
 
 
     useEffect(() => {
-        const newSocket = io('http://localhost:5000')
+        //For Dev mode choose ==1) For Production choose ==2)
+        // const newSocket = io('http://localhost:5000')
+        const newSocket = io('https://hotelmanager-q6bz.onrender.com')
 
         setSocket(newSocket)
 

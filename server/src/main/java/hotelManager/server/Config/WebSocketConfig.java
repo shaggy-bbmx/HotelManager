@@ -15,11 +15,17 @@ public class WebSocketConfig {
     @Bean
     public SocketIOServer socketIOServer() {
         com.corundumstudio.socketio.Configuration config = new com.corundumstudio.socketio.Configuration();
-        config.setHostname("0.0.0.0");
+        //For Dev mode choose ==1) For Production chose ==2)
+        // config.setHostname("0.0.0.0");
+        config.setHostname("https://hotelmanager-q6bz.onrender.com");
+
         config.setPort(Integer.parseInt(socketPort));
-        config.setOrigin("http://localhost:4000");
+
+        //For Dev mode choose ==1) For Production chose ==2)
+        //config.setOrigin("http://localhost:4000");
+        config.setOrigin("https://hotelmanager-q6bz.onrender.com:4000");
+
         return new SocketIOServer(config);
     }
-
 
 }
