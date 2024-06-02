@@ -19,9 +19,7 @@ public class WebSocketConfig {
 
         config.setPort(Integer.parseInt(socketPort));
 
-        //For Dev mode choose ==1))
-//        config.setOrigin("http://localhost:4000");
-       config.setOrigin("https://hotelmanager-q6bz.onrender.com:4000");
+        config.setOrigin("http://localhost:4000");
         return new SocketIOServer(config);
     }
 
