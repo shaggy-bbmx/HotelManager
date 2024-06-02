@@ -17,6 +17,7 @@ public class WebSocketConfig {
         com.corundumstudio.socketio.Configuration config = new com.corundumstudio.socketio.Configuration();
         config.setHostname("localhost");
         config.setPort(Integer.parseInt(socketPort));
+        config.setOrigin("http://localhost:4000");
         return new SocketIOServer(config);
     }
 
