@@ -9,7 +9,7 @@ This is a full-stack application designed to monitor maintenance-related activit
 
 To run this project, follow options:
 1. Clone the Repository
-git clone https://github.com/<GITHUB_USERNAME>/hotelmanager.git
+git clone https://github.com/shaggy-bbmx/HotelManager.git
 cd hotelmanager
 
 2. Add application.properties File
